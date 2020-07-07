@@ -1,0 +1,21 @@
+{
+  "name": "blogsml",
+  "version": "1.0.0",
+  "description": "Blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Blog"
+  ],
+  "author": "Thang",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
